@@ -237,3 +237,33 @@
 2023-03-29 14:49:50,309 - logger_File -INFO - User selected the drop off service
 2023-03-29 14:49:51,085 - logger_File -INFO - User clicked on return order button
 2023-03-29 14:49:51,165 - logger_File -INFO - Return was successful
+2023-03-29 15:07:11,128 - logger_File -INFO - User is on retail website
+2023-03-29 15:07:11,136 - logger_File -INFO - Actual Title: React App = Expected Title: React App
+2023-03-29 15:07:11,570 - logger_File -INFO - User searched for Product pokemon
+2023-03-29 15:07:11,603 - logger_File -INFO - The Product is displayed on home page
+2023-03-29 15:07:15,775 - logger_File -INFO - User is on retail website
+2023-03-29 15:07:15,776 - logger_File -INFO - Actual Title: React App = Expected Title: React App
+2023-03-29 15:07:16,062 - logger_File -INFO - User clicked on All section
+2023-03-29 15:07:20,221 - logger_File -INFO - User is on retail website
+2023-03-29 15:07:20,221 - logger_File -INFO - Actual Title: React App = Expected Title: React App
+2023-03-29 15:07:20,514 - logger_File -INFO - User clicked on All section
+2023-03-29 15:07:20,796 - logger_File -INFO - TV & Video is present
+2023-03-29 15:07:20,834 - logger_File -INFO - Video Games is present
+2023-03-29 15:07:24,823 - logger_File -INFO - User is on retail website
+2023-03-29 15:07:24,824 - logger_File -INFO - Actual Title: React App = Expected Title: React App
+2023-03-29 15:07:25,110 - logger_File -INFO - User clicked on All section
+2023-03-29 15:07:25,404 - logger_File -INFO - Accessories is present
+2023-03-29 15:07:25,456 - logger_File -INFO - Networking is present
+2023-03-29 15:07:29,821 - logger_File -INFO - User is on retail website
+2023-03-29 15:07:29,822 - logger_File -INFO - Actual Title: React App = Expected Title: React App
+2023-03-29 15:07:30,117 - logger_File -INFO - User clicked on All section
+2023-03-29 15:07:30,414 - logger_File -INFO - Smart Home Lightning is present
+2023-03-29 15:07:30,440 - logger_File -INFO - Plugs and Outlets is present
+2023-03-29 15:07:34,606 - logger_File -INFO - User is on retail website
+2023-03-29 15:07:34,607 - logger_File -INFO - Actual Title: React App = Expected Title: React App
+2023-03-29 15:07:34,876 - logger_File -INFO - User clicked on All section
+2023-03-29 15:07:35,162 - logger_File -INFO - Athletic Clothing is present
+2023-03-29 15:07:35,200 - logger_File -INFO - Exercise & Fitness is present
+2023-03-29 15:07:39,512 - logger_File -INFO - User is on retail website
+2023-03-29 15:07:39,513 - logger_File -INFO - Actual Title: React App = Expected Title: React App
+2023-03-29 15:07:39,795 - logger_File -INFO - User clicked on All section

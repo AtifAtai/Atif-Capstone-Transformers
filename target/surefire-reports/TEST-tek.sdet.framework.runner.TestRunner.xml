@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tek.sdet.framework.runner.TestRunner" time="36.318" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework/target/test-classes:/Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework/target/classes:/Users/atifatai/.m2/repository/io/cucumber/cucumber-java/7.8.0/cucumber-java-7.8.0.jar:/Users/atifatai/.m2/repository/io/cucumber/cucumber-core/7.8.0/cucumber-core-7.8.0.jar:/Users/atifatai/.m2/repository/io/cucumber/cucumber-gherkin/7.8.0/cucumber-gherkin-7.8.0.jar:/Users/atifatai/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.8.0/cucumber-gherkin-messages-7.8.0.jar:/Users/atifatai/.m2/repository/io/cucumber/gherkin/24.0.0/gherkin-24.0.0.jar:/Users/atifatai/.m2/repository/io/cucumber/messages/19.1.2/messages-19.1.2.jar:/Users/atifatai/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/atifatai/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/atifatai/.m2/repository/io/cucumber/datatable/7.8.0/datatable-7.8.0.jar:/Users/atifatai/.m2/repository/io/cucumber/cucumber-plugin/7.8.0/cucumber-plugin-7.8.0.jar:/Users/atifatai/.m2/repository/io/cucumber/docstring/7.8.0/docstring-7.8.0.jar:/Users/atifatai/.m2/repository/io/cucumber/html-formatter/20.1.0/html-formatter-20.1.0.jar:/Users/atifatai/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/atifatai/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/atifatai/.m2/repository/io/cucumber/cucumber-junit/7.8.0/cucumber-junit-7.8.0.jar:/Users/atifatai/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/atifatai/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-java/4.4.0/selenium-java-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-api/4.4.0/selenium-api-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.4.0/selenium-chrome-driver-4.4.0.jar:/Users/atifatai/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/atifatai/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/atifatai/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/atifatai/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/atifatai/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/atifatai/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/atifatai/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/atifatai/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/atifatai/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/atifatai/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.4.0/selenium-chromium-driver-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-json/4.4.0/selenium-json-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v102/4.4.0/selenium-devtools-v102-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v103/4.4.0/selenium-devtools-v103-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v104/4.4.0/selenium-devtools-v104-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.4.0/selenium-devtools-v85-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.4.0/selenium-edge-driver-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.4.0/selenium-firefox-driver-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.4.0/selenium-ie-driver-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.4.0/selenium-opera-driver-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.4.0/selenium-remote-driver-4.4.0.jar:/Users/atifatai/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/atifatai/.m2/repository/io/netty/netty-buffer/4.1.78.Final/netty-buffer-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-codec-http/4.1.78.Final/netty-codec-http-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-codec/4.1.78.Final/netty-codec-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-handler/4.1.78.Final/netty-handler-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-common/4.1.78.Final/netty-common-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.78.Final/netty-transport-classes-epoll-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.78.Final/netty-transport-classes-kqueue-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-transport-native-epoll/4.1.78.Final/netty-transport-native-epoll-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.78.Final/netty-transport-native-kqueue-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.78.Final/netty-transport-native-unix-common-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-transport/4.1.78.Final/netty-transport-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-resolver/4.1.78.Final/netty-resolver-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-api/1.16.0/opentelemetry-api-1.16.0.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-context/1.16.0/opentelemetry-context-1.16.0.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.16.0/opentelemetry-exporter-logging-1.16.0.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.16.0/opentelemetry-sdk-metrics-1.16.0.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.16.0-alpha/opentelemetry-sdk-logs-1.16.0-alpha.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.16.0/opentelemetry-sdk-common-1.16.0.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.16.0/opentelemetry-sdk-extension-autoconfigure-spi-1.16.0.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.16.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.16.0-alpha.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.16.0/opentelemetry-sdk-trace-1.16.0.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.16.0/opentelemetry-sdk-1.16.0.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.16.0-alpha/opentelemetry-semconv-1.16.0-alpha.jar:/Users/atifatai/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/atifatai/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/Users/atifatai/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/atifatai/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/atifatai/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/atifatai/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/atifatai/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/atifatai/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/atifatai/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/atifatai/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-http/4.4.0/selenium-http-4.4.0.jar:/Users/atifatai/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.4.0/selenium-safari-driver-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-support/4.4.0/selenium-support-4.4.0.jar:/Users/atifatai/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.0/webdrivermanager-5.3.0.jar:/Users/atifatai/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/atifatai/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar:/Users/atifatai/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/atifatai/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/atifatai/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/atifatai/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/atifatai/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/atifatai/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/atifatai/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/atifatai/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/atifatai/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/atifatai/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/atifatai/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/atifatai/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/atifatai/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/atifatai/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/atifatai/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/atifatai/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/atifatai/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/atifatai/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/atifatai/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/atifatai/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/atifatai/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/atifatai/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/atifatai/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/Users/atifatai/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/atifatai/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/atifatai/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/atifatai/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/atifatai/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/atifatai/.m2/repository/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30.jar:/Users/atifatai/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar:/Users/atifatai/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/atifatai/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/atifatai/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/atifatai/.m2/repository/net/datafaker/datafaker/1.8.0/datafaker-1.8.0.jar:/Users/atifatai/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/atifatai/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Users/atifatai/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.5.v20221102-0933/jre/lib"/>
+    <property name="sun.java.command" value="/Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework/target/surefire/surefirebooter-20230329150703504_3.jar /Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework/target/surefire 2023-03-29T15-07-02_900-jvmRun1 surefire-20230329150703504_1tmp surefire_0-20230329150703504_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework/target/test-classes:/Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework/target/classes:/Users/atifatai/.m2/repository/io/cucumber/cucumber-java/7.8.0/cucumber-java-7.8.0.jar:/Users/atifatai/.m2/repository/io/cucumber/cucumber-core/7.8.0/cucumber-core-7.8.0.jar:/Users/atifatai/.m2/repository/io/cucumber/cucumber-gherkin/7.8.0/cucumber-gherkin-7.8.0.jar:/Users/atifatai/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.8.0/cucumber-gherkin-messages-7.8.0.jar:/Users/atifatai/.m2/repository/io/cucumber/gherkin/24.0.0/gherkin-24.0.0.jar:/Users/atifatai/.m2/repository/io/cucumber/messages/19.1.2/messages-19.1.2.jar:/Users/atifatai/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/atifatai/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/atifatai/.m2/repository/io/cucumber/datatable/7.8.0/datatable-7.8.0.jar:/Users/atifatai/.m2/repository/io/cucumber/cucumber-plugin/7.8.0/cucumber-plugin-7.8.0.jar:/Users/atifatai/.m2/repository/io/cucumber/docstring/7.8.0/docstring-7.8.0.jar:/Users/atifatai/.m2/repository/io/cucumber/html-formatter/20.1.0/html-formatter-20.1.0.jar:/Users/atifatai/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/atifatai/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/atifatai/.m2/repository/io/cucumber/cucumber-junit/7.8.0/cucumber-junit-7.8.0.jar:/Users/atifatai/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/atifatai/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-java/4.4.0/selenium-java-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-api/4.4.0/selenium-api-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.4.0/selenium-chrome-driver-4.4.0.jar:/Users/atifatai/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/atifatai/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/atifatai/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/atifatai/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/atifatai/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/atifatai/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/atifatai/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/atifatai/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/atifatai/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/atifatai/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.4.0/selenium-chromium-driver-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-json/4.4.0/selenium-json-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v102/4.4.0/selenium-devtools-v102-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v103/4.4.0/selenium-devtools-v103-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v104/4.4.0/selenium-devtools-v104-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.4.0/selenium-devtools-v85-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.4.0/selenium-edge-driver-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.4.0/selenium-firefox-driver-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.4.0/selenium-ie-driver-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.4.0/selenium-opera-driver-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.4.0/selenium-remote-driver-4.4.0.jar:/Users/atifatai/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/atifatai/.m2/repository/io/netty/netty-buffer/4.1.78.Final/netty-buffer-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-codec-http/4.1.78.Final/netty-codec-http-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-codec/4.1.78.Final/netty-codec-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-handler/4.1.78.Final/netty-handler-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-common/4.1.78.Final/netty-common-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.78.Final/netty-transport-classes-epoll-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.78.Final/netty-transport-classes-kqueue-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-transport-native-epoll/4.1.78.Final/netty-transport-native-epoll-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.78.Final/netty-transport-native-kqueue-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.78.Final/netty-transport-native-unix-common-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-transport/4.1.78.Final/netty-transport-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-resolver/4.1.78.Final/netty-resolver-4.1.78.Final.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-api/1.16.0/opentelemetry-api-1.16.0.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-context/1.16.0/opentelemetry-context-1.16.0.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.16.0/opentelemetry-exporter-logging-1.16.0.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.16.0/opentelemetry-sdk-metrics-1.16.0.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.16.0-alpha/opentelemetry-sdk-logs-1.16.0-alpha.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.16.0/opentelemetry-sdk-common-1.16.0.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.16.0/opentelemetry-sdk-extension-autoconfigure-spi-1.16.0.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.16.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.16.0-alpha.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.16.0/opentelemetry-sdk-trace-1.16.0.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.16.0/opentelemetry-sdk-1.16.0.jar:/Users/atifatai/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.16.0-alpha/opentelemetry-semconv-1.16.0-alpha.jar:/Users/atifatai/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/atifatai/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/Users/atifatai/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/atifatai/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/atifatai/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/atifatai/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/atifatai/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/atifatai/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/atifatai/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/atifatai/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/atifatai/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-http/4.4.0/selenium-http-4.4.0.jar:/Users/atifatai/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.4.0/selenium-safari-driver-4.4.0.jar:/Users/atifatai/.m2/repository/org/seleniumhq/selenium/selenium-support/4.4.0/selenium-support-4.4.0.jar:/Users/atifatai/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.0/webdrivermanager-5.3.0.jar:/Users/atifatai/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/atifatai/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar:/Users/atifatai/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/atifatai/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/atifatai/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/atifatai/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/atifatai/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/atifatai/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/atifatai/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/atifatai/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/atifatai/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/atifatai/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/atifatai/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/atifatai/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/atifatai/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/atifatai/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/atifatai/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/atifatai/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/atifatai/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/atifatai/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/atifatai/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/atifatai/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/atifatai/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/atifatai/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/atifatai/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/Users/atifatai/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/atifatai/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/atifatai/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/atifatai/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/atifatai/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/atifatai/.m2/repository/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30.jar:/Users/atifatai/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar:/Users/atifatai/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/atifatai/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/atifatai/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/atifatai/.m2/repository/net/datafaker/datafaker/1.8.0/datafaker-1.8.0.jar:/Users/atifatai/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/atifatai/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/atifatai"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/Users/atifatai/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.5.v20221102-0933/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="/Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework/target/surefire/surefirebooter-20230329150703504_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="user.name" value="atifatai"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.2.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="localRepository" value="/Users/atifatai/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/nk/9nwxvr2d1931h2208j2q650m0000gn/T/"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="/Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/atifatai/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Verify user can search a product" classname="Tek Retail HomePage feature" time="7.004">
+    <system-out><![CDATA[
+@smoke
+Scenario: Verify user can search a product # features/homePage.feature:8
+{browser=firefox, headless=false, url=https://tek-retail-ui.azurewebsites.net/}
+ INFO [main] (RetailHomeSteps.java:31)- User is on retail website
+ INFO [main] (RetailHomeSteps.java:32)- Actual Title: React App = Expected Title: React App
+  Given User is on retail website          # tek.sdet.framework.steps.RetailHomeSteps.userIsOnRetailWebsite()
+ INFO [main] (RetailHomeSteps.java:40)- User searched for Product pokemon
+  When User search for "pokemon" product   # tek.sdet.framework.steps.RetailHomeSteps.userSearchForProduct(java.lang.String)
+ INFO [main] (RetailHomeSteps.java:47)- The Product is displayed on home page
+  Then The product should be displayed     # tek.sdet.framework.steps.RetailHomeSteps.productShouldBeDisplayed()
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+1680127626348	geckodriver	INFO	Listening on 127.0.0.1:63471
+1680127626682	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58368" "--r ... alhost:58368/" "-foreground" "-no-remote" "-profile" "/var/folders/nk/9nwxvr2d1931h2208j2q650m0000gn/T/rust_mozprofilePs3GDn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680127627325	Marionette	INFO	Marionette enabled
+1680127627564	Marionette	INFO	Listening on port 61080
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+Read port: 61080
+WebDriver BiDi listening on ws://127.0.0.1:58368
+1680127627693	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nk/9nwxvr2d1931h2208j2q650m0000gn/T/rust_mozprofilePs3GDn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58368/devtools/browser/fc379094-d7a0-45a1-a76b-00b85fdf8a83
+Mar 29, 2023 3:07:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+1680127631608	Marionette	INFO	Stopped listening on port 61080
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resouJavaScript error: resource://gre/modules/AsyncShutdown.srys.mjs, line 727: Error: Phase "profile-before-change" is finished, cit eis: /t/ogo rlea/tmeo dtuleo sr/eAsyncShutdown.sys.gmijsst:7e2r7 :c1o5m
+paldedtBiloonc kceorn@drietsioounr c"eO:S/./Fgirlee/:m ofdluulsehs /IA/sOy nqcuSehuuetdd obwenf.osryes .pmjrso:f5i2l3e:B2e6f
+oarddeBClhoacnkgeer"@
+rJeasvaoScurripct ee://gre/modules/AsyncShutdown.rsys.rmojrs:: 4re5s8o:1u5rc
+es:e//tgurpeS/hmuotdown@resource://grdeu/lmodeusl/eAssyn/coSsfilheu/todowsnf.siylse._majss, linyen c_7fr2on7: Error: Phase "protfile-.bjsemf:o1re5-cha4n8g:e2" 8i
+@resource://gre/modules/osfilse/ osfiflieni_sahseydnc,_ iftr oinst .tjsomo :l1a5t6e8 :16to
+ @rergeisstouerrc ceo:m/p/lgreet/iomno dcuolensd/itoisofni l"e.OjSs.Fiml:e1:2:3 0f
+l@urseh sIo/uOr cqeue:u/ed/g rbee/fmoore prodfuilleesB/eTfeolreemCehtarnygSet"o
+rJaagvea.Sscyrsi.pmtj se:r1r0:28
+_ocrh:e crkePseonudricneg:P/i/nggrse@/rmeosdouulrecse/:A//sgyre/modulensc/STehlutemdeotwrny.Sseysn.d.msjyss,. mlijnse: 876237::1 7E
+rsreotru:p @Prhaessoeu r"cper:o/fi/lger-eb/emfoodre-change" ius finished, it is too late to rleegsi/sTteelr ecmeotmrpylSetioenn codn.dsiyts.imojns :"8O0S3.:18F
+islee:t ufpl@urseh Is/oOu rqceu:e/ue/dg rbee/fmoordeu plreosf/TeilleeBmefeotrryeSCehnadng.es"y
+sJ.amvjasS:cr2i4p1t: 3e0r
+rosre:t urpTeesloeumrectrey://t/hgries/._mdoedlualyes/eAdsIynnictSThautskd<o@wrne.ssoysur.cmej:s/,/ glrine/em od7u2l7e:s /ETerlreomre:t rPyhCoanster o"plrolfeirlPea-rbeefnotr.esys.mjs:828:36
+o-bcshearnvgee@"r iess ofuirnceis:h/e/dg,r ei/tm oidsu lteoso/ Alsatey ntco Srheugitsdteorw n.scyosm.plemtjiso:n5 7c6o:n1di6t
+i
+oWnA R"NOIS.NGF:i lAe :b lfolcuksehr  Ie/nOc oqunuteeureedd b eanf oerrer oprro fwihlielBee fwoer weeCrhea nwgae"i
+tJianvga.S
+c r i pt   e r r o r :B lroescokurerc:e : /T/eglree/mmeodturlyeCso/nAtsryonclSlheur:t dsohwn.ustyst.imnjgs ,d oliwnne
+  7 2 7 :  E r r o r :P hPahsaes: ep r"opfriolef-ibleef-obreef-ochraen-gceha-ntgelee"m eitsr fyi
+     n i s h e dS,t aitte :i sE rtrooro  gleatttei ntgo  strateegister completion condition "OS: E.rFirloer::  fPlhuasseh  "Ip/rOof iqluee-ubed ebfeofroree- cphraonfgiel"e Biesf ofrienCihsahnegd,e "i
+tJ aivsa Stcoor ilpta teer rtoo rr: ergeissotuerr cce:o/m/pglretei/omodnu lceonsd/iAtsiynocnS h"uOtSd.oFwni.lsey:s f.lmujss,h  lI/iOn eq u7e2u7e:d bef oErrer oprr:o fPihalseeB e"fporreofCihlaen-gbee" foarte -acdhdaBnlgoe"c kiesr@resourc e:/f/ignries/hemdo,d uitl is teoso/ AlsatyencShutdown.sys.mjs:7 2t7:15
+addoBl ockerre@gresourceister: /c/ogmrpel/emtioond ucloens/dAitsiynon "OS.Filec: Shfultudownsh I/O queued .sys.mjs:523:26
+addBlocker@resource:b//efogrree /pmodruolfileesB/eAsfyonrceCShhauntgdoew"n
+.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+]]></system-err>
+  </testcase>
+  <testcase name="Verify Shop by Department sidebar" classname="Tek Retail HomePage feature" time="4.416">
+    <system-out><![CDATA[
+@smoke
+Scenario: Verify Shop by Department sidebar                    # features/homePage.feature:13
+{browser=firefox, headless=false, url=https://tek-retail-ui.azurewebsites.net/}
+ INFO [main] (RetailHomeSteps.java:31)- User is on retail website
+ INFO [main] (RetailHomeSteps.java:32)- Actual Title: React App = Expected Title: React App
+  Given User is on retail website                              # tek.sdet.framework.steps.RetailHomeSteps.userIsOnRetailWebsite()
+ INFO [main] (RetailHomeSteps.java:59)- User clicked on All section
+  When User click on All section                               # tek.sdet.framework.steps.RetailHomeSteps.userClickOnAllSection()
+  Then below options are present in Shop by Department sidebar # tek.sdet.framework.steps.RetailHomeSteps.belowOptionsArePresentInShopByDepartmentSidebar(io.cucumber.datatable.DataTable)
+    | Electronics | Computers | Smart Home | Sports | Automative |
+]]></system-out>
+    <system-err><![CDATA[1680127632157	geckodriver	INFO	Listening on 127.0.0.1:59665
+1680127632182	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64682" "--r ... alhost:64682/" "-foreground" "-no-remote" "-profile" "/var/folders/nk/9nwxvr2d1931h2208j2q650m0000gn/T/rust_mozprofileoDKoL4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680127632588	Marionette	INFO	Marionette enabled
+1680127632675	Marionette	INFO	Listening on port 61248
+Read port: 61248
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+WebDriver BiDi listening on ws://127.0.0.1:64682
+1680127632802	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nk/9nwxvr2d1931h2208j2q650m0000gn/T/rust_mozprofileoDKoL4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64682/devtools/browser/fa71747b-2fb8-4320-906f-bf3c799385f3
+Mar 29, 2023 3:07:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+1680127636146	Marionette	INFO	Stopped listening on port 61248
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+J
+WaARNING: vAa Sbloccrkeri petnc ouentrerroedr :an  errroer swhoilue wre cweree :wa/i/tigngr.
+e   / m o  d  u Bllockeesr:  /WAaistyingn focr Sphinugt dtasok
+w n  .  s     Phase: TelemetryController: Waiting for pending ping activity
+   y s . m j s ,  lSinte a7t27e:: Er r(onr:o Phnasee )"
+pWrAofRilNeI-bNeGf: Error:o rPeh-achsaneg e""p riosf fiinliesh-ebde,f oirte i-sc thoao lnagtee"  tio sregi sftienris hcedo,m ipt ils teotoi olatne  cotndoit iron e"gOiS.sFtilee:r  fcloumsphl eIt/iO oqnueued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript er ror: croensdoiutricoen: /"/OgSr.eF/imloed:u lfelsu/sAhs yIn/cOS hquuteduoewdn .bseyfso.rmej sp,r ofileBeforleiCnhea n7g2e7":
+ WEArRrNoIrN:G :P haaddsBel o"profilcek-ebre@froerseo-ucrhcaen:g/e/"g ries/mod ufliensi/sAhseydn,cS hiutt diosw nt.osoy sl.amtjes :t7o2 7r:1egist5e
+ra dcdoBmlpolcekteiro@nr ecsoounrdciet:i/o/ngr e"/OmSo.dFuillees:/ AfslyuncSshhu tId/oOw nq.ueuesdy sb.emfjosr:e5 23p:r2o6f
+ialdedBBelfoocrkeeCrhange"
+@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TJelemetrySend.syas.vmjasS:c8r6i3:17p
+stet up@reesrouror: rercse:/o/gurer/modcuele:s//Te/lesmeetryrSenvdi.scys.emsjs:803:18
+setup@resou-rsce:e/t/gtrei/mondugless/T/elUemtetirySlensd..sjys.smjsm:24,1: 30l
+sietnupeT el2em3etr7y:/ tThisy._pdeleaEyerdIrniotTras:k< @rNeestourcwe:o/r/gkre/mEordulreso/Trele:m eNtryCeontrollerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 237))
+twork request failed
+]]></system-err>
+  </testcase>
+  <testcase name="Verify department sidebar options #1" classname="Tek Retail HomePage feature" time="4.78">
+    <system-out><![CDATA[
+@smoke
+Scenario Outline: Verify department sidebar options # features/homePage.feature:27
+{browser=firefox, headless=false, url=https://tek-retail-ui.azurewebsites.net/}
+ INFO [main] (RetailHomeSteps.java:31)- User is on retail website
+ INFO [main] (RetailHomeSteps.java:32)- Actual Title: React App = Expected Title: React App
+  Given User is on retail website                   # tek.sdet.framework.steps.RetailHomeSteps.userIsOnRetailWebsite()
+ INFO [main] (RetailHomeSteps.java:59)- User clicked on All section
+  When User click on All section                    # tek.sdet.framework.steps.RetailHomeSteps.userClickOnAllSection()
+  And User on 'Electronics'                         # tek.sdet.framework.steps.RetailHomeSteps.userOnElectronics(java.lang.String)
+ INFO [main] (RetailHomeSteps.java:99)- TV & Video is present
+ INFO [main] (RetailHomeSteps.java:99)- Video Games is present
+  Then below options are present in department      # tek.sdet.framework.steps.RetailHomeSteps.belowOptionsArePresentInDepartment(io.cucumber.datatable.DataTable)
+    | TV & Video | Video Games |
+]]></system-out>
+    <system-err><![CDATA[1680127636567	geckodriver	INFO	Listening on 127.0.0.1:64585
+1680127636587	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61434" "--r ... alhost:61434/" "-foreground" "-no-remote" "-profile" "/var/folders/nk/9nwxvr2d1931h2208j2q650m0000gn/T/rust_mozprofile60IuO1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680127636997	Marionette	INFO	Marionette enabled
+1680127637086	Marionette	INFO	Listening on port 61366
+Read port: 61366
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+WebDriver BiDi listening on ws://127.0.0.1:61434
+1680127637212	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nk/9nwxvr2d1931h2208j2q650m0000gn/T/rust_mozprofile60IuO1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61434/devtools/browser/de6e1a70-0059-40bf-ae1a-9a57aabde156
+Mar 29, 2023 3:07:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+1680127640837	Marionette	INFO	Stopped listening on port 61366
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+]]></system-err>
+  </testcase>
+  <testcase name="Verify department sidebar options #2" classname="Tek Retail HomePage feature" time="4.631">
+    <system-out><![CDATA[
+@smoke
+Scenario Outline: Verify department sidebar options # features/homePage.feature:28
+{browser=firefox, headless=false, url=https://tek-retail-ui.azurewebsites.net/}
+ INFO [main] (RetailHomeSteps.java:31)- User is on retail website
+ INFO [main] (RetailHomeSteps.java:32)- Actual Title: React App = Expected Title: React App
+  Given User is on retail website                   # tek.sdet.framework.steps.RetailHomeSteps.userIsOnRetailWebsite()
+ INFO [main] (RetailHomeSteps.java:59)- User clicked on All section
+  When User click on All section                    # tek.sdet.framework.steps.RetailHomeSteps.userClickOnAllSection()
+  And User on 'Computers'                           # tek.sdet.framework.steps.RetailHomeSteps.userOnElectronics(java.lang.String)
+ INFO [main] (RetailHomeSteps.java:99)- Accessories is present
+ INFO [main] (RetailHomeSteps.java:99)- Networking is present
+  Then below options are present in department      # tek.sdet.framework.steps.RetailHomeSteps.belowOptionsArePresentInDepartment(io.cucumber.datatable.DataTable)
+    | Accessories | Networking |
+]]></system-out>
+    <system-err><![CDATA[1680127641346	geckodriver	INFO	Listening on 127.0.0.1:56979
+1680127641370	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51018" "--r ... alhost:51018/" "-foreground" "-no-remote" "-profile" "/var/folders/nk/9nwxvr2d1931h2208j2q650m0000gn/T/rust_mozprofilekhjWYm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680127641778	Marionette	INFO	Marionette enabled
+1680127641988	Marionette	INFO	Listening on port 61519
+Read port: 61519
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+WebDriver BiDi listening on ws://127.0.0.1:51018
+1680127642092	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nk/9nwxvr2d1931h2208j2q650m0000gn/T/rust_mozprofilekhjWYm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51018/devtools/browser/d34403ed-8a00-4051-ac0b-5e844a006981
+Mar 29, 2023 3:07:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+1680127645461	Marionette	INFO	Stopped listening on port 61519
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 693: TypeError: this.tablesData[table] is undefined
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 237))
+JavaScript error: resource://services-settings/Utils.jsm, line 237: TypeError: NetworkError: Network request failed
+]]></system-err>
+  </testcase>
+  <testcase name="Verify department sidebar options #3" classname="Tek Retail HomePage feature" time="4.982">
+    <system-out><![CDATA[
+@smoke
+Scenario Outline: Verify department sidebar options # features/homePage.feature:29
+{browser=firefox, headless=false, url=https://tek-retail-ui.azurewebsites.net/}
+ INFO [main] (RetailHomeSteps.java:31)- User is on retail website
+ INFO [main] (RetailHomeSteps.java:32)- Actual Title: React App = Expected Title: React App
+  Given User is on retail website                   # tek.sdet.framework.steps.RetailHomeSteps.userIsOnRetailWebsite()
+ INFO [main] (RetailHomeSteps.java:59)- User clicked on All section
+  When User click on All section                    # tek.sdet.framework.steps.RetailHomeSteps.userClickOnAllSection()
+  And User on 'Smart Home'                          # tek.sdet.framework.steps.RetailHomeSteps.userOnElectronics(java.lang.String)
+ INFO [main] (RetailHomeSteps.java:99)- Smart Home Lightning is present
+ INFO [main] (RetailHomeSteps.java:99)- Plugs and Outlets is present
+  Then below options are present in department      # tek.sdet.framework.steps.RetailHomeSteps.belowOptionsArePresentInDepartment(io.cucumber.datatable.DataTable)
+    | Smart Home Lightning | Plugs and Outlets |
+]]></system-out>
+    <system-err><![CDATA[1680127645988	geckodriver	INFO	Listening on 127.0.0.1:59834
+1680127646011	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58115" "--r ... alhost:58115/" "-foreground" "-no-remote" "-profile" "/var/folders/nk/9nwxvr2d1931h2208j2q650m0000gn/T/rust_mozprofileN6FZSM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680127646421	Marionette	INFO	Marionette enabled
+1680127646626	Marionette	INFO	Listening on port 61689
+Read port: 61689
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+WebDriver BiDi listening on ws://127.0.0.1:58115
+1680127646726	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nk/9nwxvr2d1931h2208j2q650m0000gn/T/rust_mozprofileN6FZSM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58115/devtools/browser/5e5e53bb-3632-4f67-8927-4a88758fe21a
+Mar 29, 2023 3:07:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+1680127650442	Marionette	INFO	Stopped listening on port 61689
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/mJoadules/TelemetryvSatScorage.sys.mjs:10r:i2p8t
+ _errorc:h erceksPouerncdei://gre/mongPings@resource://gre/modules/TelemetrySend.sys.mjds:863:17
+ules/Assyentcup@resoShutdownu.rsce://grey/s.mjs, limodunlee s7/2T7e: Error: Phase "lprofile-ebmeetrySendfore-.cshyasn.gmjs:8e"0 3i:s1 8f
+isneitsuhped,@ reisource:t /i/sg rtoo laet/em otduleo resg/iTsetleermetr compylSeetnido.sys.n condimtjiso:n241:30 
+setupT"OS.File: elfelmuesh I/O try/thqiuse.u_ed befdelayoerdeI npirofileBetfTask<@resoreChaonugrce://gre"
+JavaSce/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+ript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+]]></system-err>
+  </testcase>
+  <testcase name="Verify department sidebar options #4" classname="Tek Retail HomePage feature" time="4.763">
+    <system-out><![CDATA[
+@smoke
+Scenario Outline: Verify department sidebar options # features/homePage.feature:30
+{browser=firefox, headless=false, url=https://tek-retail-ui.azurewebsites.net/}
+ INFO [main] (RetailHomeSteps.java:31)- User is on retail website
+ INFO [main] (RetailHomeSteps.java:32)- Actual Title: React App = Expected Title: React App
+  Given User is on retail website                   # tek.sdet.framework.steps.RetailHomeSteps.userIsOnRetailWebsite()
+ INFO [main] (RetailHomeSteps.java:59)- User clicked on All section
+  When User click on All section                    # tek.sdet.framework.steps.RetailHomeSteps.userClickOnAllSection()
+  And User on 'Sports'                              # tek.sdet.framework.steps.RetailHomeSteps.userOnElectronics(java.lang.String)
+ INFO [main] (RetailHomeSteps.java:99)- Athletic Clothing is present
+ INFO [main] (RetailHomeSteps.java:99)- Exercise & Fitness is present
+  Then below options are present in department      # tek.sdet.framework.steps.RetailHomeSteps.belowOptionsArePresentInDepartment(io.cucumber.datatable.DataTable)
+    | Athletic Clothing | Exercise & Fitness |
+]]></system-out>
+    <system-err><![CDATA[1680127650965	geckodriver	INFO	Listening on 127.0.0.1:52690
+1680127650990	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58749" "--r ... alhost:58749/" "-foreground" "-no-remote" "-profile" "/var/folders/nk/9nwxvr2d1931h2208j2q650m0000gn/T/rust_mozprofileCd1glE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680127651400	Marionette	INFO	Marionette enabled
+1680127651487	Marionette	INFO	Listening on port 61856
+Read port: 61856
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+WebDriver BiDi listening on ws://127.0.0.1:58749
+1680127651612	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nk/9nwxvr2d1931h2208j2q650m0000gn/T/rust_mozprofileCd1glE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58749/devtools/browser/5bbaa5ff-9dd1-40a5-a78b-c3111568f8ae
+Mar 29, 2023 3:07:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+1680127655202	Marionette	INFO	Stopped listening on port 61856
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+]]></system-err>
+  </testcase>
+  <testcase name="Verify department sidebar options #5" classname="Tek Retail HomePage feature" time="4.677">
+    <system-out><![CDATA[
+@smoke
+Scenario Outline: Verify department sidebar options # features/homePage.feature:31
+{browser=firefox, headless=false, url=https://tek-retail-ui.azurewebsites.net/}
+ INFO [main] (RetailHomeSteps.java:31)- User is on retail website
+ INFO [main] (RetailHomeSteps.java:32)- Actual Title: React App = Expected Title: React App
+  Given User is on retail website                   # tek.sdet.framework.steps.RetailHomeSteps.userIsOnRetailWebsite()
+ INFO [main] (RetailHomeSteps.java:59)- User clicked on All section
+  When User click on All section                    # tek.sdet.framework.steps.RetailHomeSteps.userClickOnAllSection()
+  And User on 'Automotive'                          # tek.sdet.framework.steps.RetailHomeSteps.userOnElectronics(java.lang.String)
+  Then below options are present in department      # tek.sdet.framework.steps.RetailHomeSteps.belowOptionsArePresentInDepartment(io.cucumber.datatable.DataTable)
+    | Automative Parts & Accessories | MotorCycle & Powersports |
+]]></system-out>
+    <system-err><![CDATA[1680127655722	geckodriver	INFO	Listening on 127.0.0.1:51527
+1680127655751	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54974" "--r ... alhost:54974/" "-foreground" "-no-remote" "-profile" "/var/folders/nk/9nwxvr2d1931h2208j2q650m0000gn/T/rust_mozprofilebp6wFb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680127656167	Marionette	INFO	Marionette enabled
+1680127656372	Marionette	INFO	Listening on port 61992
+Read port: 61992
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+WebDriver BiDi listening on ws://127.0.0.1:54974
+1680127656474	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nk/9nwxvr2d1931h2208j2q650m0000gn/T/rust_mozprofilebp6wFb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54974/devtools/browser/1ae46fdf-3616-4cc4-a771-e70e400ead65
+Mar 29, 2023 3:07:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+1680127659881	Marionette	INFO	Stopped listening on port 61992
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/mJavoaSdcules/Teleript meertrroyrSend.sys.mjs:80: 3r:e1s8ource:/
+/sgertup@ree/modules/source://AgsyncShutdre/modouwlne.ssys.mj/Telemestry, line 72Send.sys.mjs:274: Error: Pha1:30
+setse "profilupTelemetre-before-cy/this._hdaenlaygeed"I niist Tfinaisskh<e@dr,e sioutr ce://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+]]></system-err>
+  </testcase>
+</testsuite>

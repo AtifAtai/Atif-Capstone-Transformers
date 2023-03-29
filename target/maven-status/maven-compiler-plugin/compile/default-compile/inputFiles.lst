@@ -1,0 +1,11 @@
+/Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework/src/main/java/tek/sdet/framework/config/ChromeHeadless.java
+/Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework/src/main/java/tek/sdet/framework/base/BaseSetup.java
+/Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework/src/main/java/tek/sdet/framework/config/EdgeBrowser.java
+/Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework/src/main/java/tek/sdet/framework/config/FireFoxBrowser.java
+/Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework/src/main/java/tek/sdet/framework/config/SafariBrowser.java
+/Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework/src/main/java/tek/sdet/framework/config/Browser.java
+/Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework/src/main/java/tek/sdet/framework/config/ChromeBrowser.java
+/Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework/src/main/java/tek/sdet/framework/utilities/FileUtility.java
+/Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework/src/main/java/tek/sdet/framework/utilities/CommonUtility.java
+/Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework/src/main/java/tek/sdet/framework/utilities/ReadYamlFiles.java
+/Users/atifatai/eclipse-workspace/Atif-tek-bdd-framework/src/main/java/tek/sdet/framework/utilities/DataGeneratorUtility.java
