@@ -78,6 +78,9 @@ public class RetailOrderPage extends BaseSetup {
 	@FindBy(xpath ="(//span[contains(text(),'Delete')])")
 	public List<WebElement> orderCartItemsDeleteBtn;
 	
+	@FindBy(xpath="(//input[@type='checkbox'])")
+	public List<WebElement> orderReturnCheckbox;
+	
 	@FindBy(xpath = "//h1[contains(text(),'Your Shopping Cart is Empty')]")
 	public WebElement orderCartListEmptyMsg;
 	

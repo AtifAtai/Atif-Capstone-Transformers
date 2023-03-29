@@ -4,7 +4,7 @@ Feature: TEK Retail Order feature
   Background: 
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'testerAtif@tekschool.us' and password 'Tek@12345'
+    And User enter email 'testerAtif@tekschool.us' and password 'Atai@12345'
     And User click on login button
     And User should be logged in into Account
 
@@ -33,7 +33,7 @@ Feature: TEK Retail Order feature
     And User click Add a new address link for shipping address
     And user fill new address form with below information
       | country       | fullName | phoneNumber | streetAddress | apt | city | state      | zipCode |
-      | United States | fullName | phoneNumber | streetAddress | 111 | city | California | zipcode |
+      | United States | fullName | phoneNumber | streetAddress | 333 | city | California | zipcode |
     And User click Add Your Address button
     And User click Add a credit card or Debit Card for Payment method
     And User fill Debit or credit card information

@@ -227,6 +227,10 @@ public class RetailOrderSteps extends CommonUtility {
 	
 	@And("User click on Return Order button")
 	public void userClickOnReturnOrderButton() {
+		List<WebElement> returnCheckbox = factory.orderPage().orderReturnCheckbox;
+		for(WebElement checkBox : returnCheckbox) {
+			click(checkBox);
+		}
 	    click(factory.orderPage().orderReturnOrderBtn);
 	    logger.info("User clicked on return order button");
 	}

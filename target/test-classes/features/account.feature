@@ -1,12 +1,11 @@
-  @smoke
+@smoke
 Feature: TEK Retail Account feature
 
-  
   #1 Passed
   Scenario: Verify User can update Profile Information
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'testerAtif@tekschool.us' and password 'Tek@12345'
+    And User enter email 'testerAtif@tekschool.us' and password 'Atai@12345'
     And User click on login button
     And User should be logged in into Account
     When User click on Account option
@@ -24,7 +23,7 @@ Feature: TEK Retail Account feature
     And User click on Account option
     And User enter below information
       | previousPassword | newPassword | confirmPassword |
-      | Tek@12345        | teK@12345   | teK@12345       |
+      | teK@12345        | Tek@12345   | Tek@12345       |
     And User click on Change Password button
     Then a message should be displayed ‘Password Updated Successfully’
 
@@ -32,7 +31,7 @@ Feature: TEK Retail Account feature
   Scenario: Verify User can add a payment method
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'testerAtif@tekschool.us' and password 'Tek@12345'
+    And User enter email 'testerAtif@tekschool.us' and password 'Atai@12345'
     And User click on login button
     And User should be logged in into Account
     When User click on Account option
@@ -47,14 +46,14 @@ Feature: TEK Retail Account feature
   Scenario: Verify User can edit Debit or Credit card
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'testerAtif@tekschool.us' and password 'Tek@12345'
+    And User enter email 'testerAtif@tekschool.us' and password 'Atai@12345'
     And User click on login button
     And User should be logged in into Account
     When User click on Account option
     And User click on Edit option of card section
     And user edit information with below data
       | cardNumber | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | cardNumber | nameOnCard |               5 |           2030 | securityCode |
+      | cardNumber | nameOnCard |               1 |           2060 | securityCode |
     And user click on Update Your Card button
     Then a message should be displayed ‘Payment Method updated Successfully’
 
@@ -62,7 +61,7 @@ Feature: TEK Retail Account feature
   Scenario: Verify User can remove Debit or Credit card
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'testerAtif@tekschool.us' and password 'Tek@12345'
+    And User enter email 'testerAtif@tekschool.us' and password 'Atai@12345'
     And User click on login button
     And User should be logged in into Account
     When User click on Account option
@@ -73,14 +72,14 @@ Feature: TEK Retail Account feature
   Scenario: Verify User can add an Address
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'testerAtif@tekschool.us' and password 'Tek@12345'
+    And User enter email 'testerAtif@tekschool.us' and password 'Atai@12345'
     And User click on login button
     And User should be logged in into Account
     When User click on Account option
     And User click on Add address option
     And user fill new address form with below information
       | country       | fullName | phoneNumber | streetAddress | apt | city | state      | zipCode |
-      | United States | fullName | phoneNumber | address       | A15 | city | California | zipcode |
+      | United States | fullName | phoneNumber | address       |  10 | city | California | zipcode |
     And User click Add Your Address button
     Then a message should be displayed ‘Address Added Successfully’
 
@@ -88,14 +87,14 @@ Feature: TEK Retail Account feature
   Scenario: Verify User can edit an Address added on account
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'testerAtif@tekschool.us' and password 'Tek@12345'
+    And User enter email 'testerAtif@tekschool.us' and password 'Atai@12345'
     And User click on login button
     And User should be logged in into Account
     When User click on Account option
     And User click on edit address option
     And user fill new address form with below information
       | country       | fullName | phoneNumber | streetAddress | apt | city | state      | zipCode |
-      | United States | fullName | phoneNumber | address       |  15 | city | California | zipcode |
+      | United States | fullName | phoneNumber | address       |  13 | city | California | zipcode |
     And User click update Your Address button
     Then a message should be displayed ‘Address Updated Successfully’
 
@@ -103,7 +102,7 @@ Feature: TEK Retail Account feature
   Scenario: Verify User can remove Address from Account
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'testerAtif@tekschool.us' and password 'Tek@12345'
+    And User enter email 'testerAtif@tekschool.us' and password 'Atai@12345'
     And User click on login button
     And User should be logged in into Account
     When User click on Account option

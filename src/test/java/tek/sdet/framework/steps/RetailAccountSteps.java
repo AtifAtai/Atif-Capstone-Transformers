@@ -231,33 +231,27 @@ public class RetailAccountSteps extends CommonUtility{
 	    click(factory.accountPage().accountAddressCountry);
 	    selectByValue(factory.accountPage().accountAddressCountry, newAddressTable.get(0).get("country"));
 	    
-//	    click(factory.accountPage().accountAddressFullName);
-		Thread.sleep(5000);	    clearMethod(factory.accountPage().accountAddressFullName);
+	    clearMethod(factory.accountPage().accountAddressFullName);
 	    sendText(factory.accountPage().accountAddressFullName, DataGeneratorUtility.data(newAddressTable.get(0).get("fullName")));
 
-//	    click(factory.accountPage().accountAddressPhoneNumber);
-		Thread.sleep(5000);	    clearMethod(factory.accountPage().accountAddressPhoneNumber);
+	    clearMethod(factory.accountPage().accountAddressPhoneNumber);
 	    sendText(factory.accountPage().accountAddressPhoneNumber, DataGeneratorUtility.data(newAddressTable.get(0).get("phoneNumber")));
 
-//	    click(factory.accountPage().accountStreetAddress);
-	    Thread.sleep(5000);
+
 	    clearMethod(factory.accountPage().accountStreetAddress);
 	    sendText(factory.accountPage().accountStreetAddress, DataGeneratorUtility.data(newAddressTable.get(0).get("streetAddress")));
 
-//	    click(factory.accountPage().accountAptAddress);
-		Thread.sleep(5000);	    clearMethod(factory.accountPage().accountAptAddress);
+	    clearMethod(factory.accountPage().accountAptAddress);
 	    sendText(factory.accountPage().accountAptAddress, newAddressTable.get(0).get("apt"));
 
-//	    click(factory.accountPage().accountCityAddress);
-		Thread.sleep(5000);	    
+	     
 	    clearMethod(factory.accountPage().accountCityAddress);
 	    sendText(factory.accountPage().accountCityAddress, DataGeneratorUtility.data(newAddressTable.get(0).get("city")));
 
 	    click(factory.accountPage().accountStateAddress);
 	    sendText(factory.accountPage().accountStateAddress, newAddressTable.get(0).get("state"));
 	    
-//	    click(factory.accountPage().accountZipCodeAddress);
-	    Thread.sleep(5000);
+
 	    clearMethod(factory.accountPage().accountZipCodeAddress);
 	    sendText(factory.accountPage().accountZipCodeAddress, DataGeneratorUtility.data(newAddressTable.get(0).get("zipCode")));
 	    logger.info("User filled the address info");
