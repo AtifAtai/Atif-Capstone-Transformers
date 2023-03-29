@@ -311,3 +311,24 @@
 2023-03-29 15:25:54,388 [main] INFO logger_File - User selected the return reson
 2023-03-29 15:25:54,648 [main] INFO logger_File - User selected the drop off service
 2023-03-29 15:25:55,200 [main] INFO logger_File - User clicked on return order button
+2023-03-29 15:35:56,822 [main] INFO logger_File - User is on retail website
+2023-03-29 15:35:56,827 [main] INFO logger_File - Actual Title: React App = Expected Title: React App
+2023-03-29 15:35:57,154 [main] INFO logger_File - User clicked on signin button
+2023-03-29 15:35:57,858 [main] INFO logger_File - This is the email user entered: testerAtif@tekschool.us , This is the password user enterd: Atai@12345
+2023-03-29 15:35:58,124 [main] INFO logger_File - User clicked on login button
+2023-03-29 15:35:58,336 [main] INFO logger_File - User is logged into account
+2023-03-29 15:35:58,642 [main] INFO logger_File - User Clicked on account button
+2023-03-29 15:35:59,353 [main] INFO logger_File - User clicked on address edit button
+2023-03-29 15:36:00,792 [main] INFO logger_File - User filled the address info
+2023-03-29 15:36:01,092 [main] INFO logger_File - User clicked on update button
+2023-03-29 15:36:01,840 [main] INFO logger_File - User Address Updated Successfuly
+2023-03-29 15:36:27,070 [main] INFO logger_File - User is on retail website
+2023-03-29 15:36:27,075 [main] INFO logger_File - Actual Title: React App = Expected Title: React App
+2023-03-29 15:36:27,533 [main] INFO logger_File - User clicked on signin button
+2023-03-29 15:36:31,921 [main] INFO logger_File - This is the email user entered: testerAtif@tekschool.us , This is the password user enterd: Atai@12345
+2023-03-29 15:36:32,562 [main] INFO logger_File - User clicked on login button
+2023-03-29 15:36:34,228 [main] INFO logger_File - User is logged into account
+2023-03-29 15:36:35,199 [main] INFO logger_File - User Clicked on account button
+2023-03-29 15:36:36,166 [main] INFO logger_File - User clicked on address edit button
+2023-03-29 15:36:40,206 [main] INFO logger_File - User filled the address info
+2023-03-29 15:36:40,440 [main] INFO logger_File - User clicked on update button

@@ -17,13 +17,13 @@ Feature: TEK Retail Account feature
   Scenario: Verify User can Update password
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'atiftester@tekschool.us' and password 'teK@12345'
+    And User enter email 'atiftester@tekschool.us' and password 'Tek@12345'
     And User click on login button
     And User should be logged in into Account
     And User click on Account option
     And User enter below information
       | previousPassword | newPassword | confirmPassword |
-      | teK@12345        | Tek@12345   | Tek@12345       |
+      | Tek@12345        | teK@12345   | teK@12345       |
     And User click on Change Password button
     Then a message should be displayed ‘Password Updated Successfully’
 

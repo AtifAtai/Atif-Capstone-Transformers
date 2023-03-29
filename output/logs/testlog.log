@@ -311,3 +311,24 @@
 2023-03-29 15:25:54,388 - logger_File -INFO - User selected the return reson
 2023-03-29 15:25:54,648 - logger_File -INFO - User selected the drop off service
 2023-03-29 15:25:55,200 - logger_File -INFO - User clicked on return order button
+2023-03-29 15:35:56,822 - logger_File -INFO - User is on retail website
+2023-03-29 15:35:56,827 - logger_File -INFO - Actual Title: React App = Expected Title: React App
+2023-03-29 15:35:57,154 - logger_File -INFO - User clicked on signin button
+2023-03-29 15:35:57,858 - logger_File -INFO - This is the email user entered: testerAtif@tekschool.us , This is the password user enterd: Atai@12345
+2023-03-29 15:35:58,124 - logger_File -INFO - User clicked on login button
+2023-03-29 15:35:58,336 - logger_File -INFO - User is logged into account
+2023-03-29 15:35:58,642 - logger_File -INFO - User Clicked on account button
+2023-03-29 15:35:59,353 - logger_File -INFO - User clicked on address edit button
+2023-03-29 15:36:00,792 - logger_File -INFO - User filled the address info
+2023-03-29 15:36:01,092 - logger_File -INFO - User clicked on update button
+2023-03-29 15:36:01,840 - logger_File -INFO - User Address Updated Successfuly
+2023-03-29 15:36:27,070 - logger_File -INFO - User is on retail website
+2023-03-29 15:36:27,075 - logger_File -INFO - Actual Title: React App = Expected Title: React App
+2023-03-29 15:36:27,533 - logger_File -INFO - User clicked on signin button
+2023-03-29 15:36:31,921 - logger_File -INFO - This is the email user entered: testerAtif@tekschool.us , This is the password user enterd: Atai@12345
+2023-03-29 15:36:32,562 - logger_File -INFO - User clicked on login button
+2023-03-29 15:36:34,228 - logger_File -INFO - User is logged into account
+2023-03-29 15:36:35,199 - logger_File -INFO - User Clicked on account button
+2023-03-29 15:36:36,166 - logger_File -INFO - User clicked on address edit button
+2023-03-29 15:36:40,206 - logger_File -INFO - User filled the address info
+2023-03-29 15:36:40,440 - logger_File -INFO - User clicked on update button
