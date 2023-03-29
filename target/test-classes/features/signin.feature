@@ -9,17 +9,6 @@ Feature: TEK Retail application SignIn feature
     And User click on login button
     Then User should be logged in into Account
 
-  Scenario Outline: Verify user can sign in into Retail Application
-    Given User is on retail website
-    When User click on Sign in option
-    And User enter email '<email>' and password '<password>'
-    And User click on login button
-    Then User should be logged in into Account
-
-    Examples: 
-      | email                   | password  |
-      | testerAtif@tekschool.us | Atai@12345 |
-      | atiftester@tekschool.us | Tek@12345 |
 
   #2 Passed
   Scenario: Verify user can create an account into Retail Website

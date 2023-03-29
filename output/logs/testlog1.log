@@ -267,3 +267,47 @@
 2023-03-29 15:07:39,512 [main] INFO logger_File - User is on retail website
 2023-03-29 15:07:39,513 [main] INFO logger_File - Actual Title: React App = Expected Title: React App
 2023-03-29 15:07:39,795 [main] INFO logger_File - User clicked on All section
+2023-03-29 15:17:59,707 [main] INFO logger_File - User is on retail website
+2023-03-29 15:17:59,712 [main] INFO logger_File - Actual Title: React App = Expected Title: React App
+2023-03-29 15:18:00,160 [main] INFO logger_File - User clicked on signin button
+2023-03-29 15:18:04,140 [main] INFO logger_File - This is the email user entered: testerAtif@tekschool.us , This is the password user enterd: Atai@12345
+2023-03-29 15:18:04,913 [main] INFO logger_File - User clicked on login button
+2023-03-29 15:18:06,989 [main] INFO logger_File - User is logged into account
+2023-03-29 15:18:07,131 [main] INFO logger_File - User Clicked on orders section
+2023-03-29 15:18:08,932 [main] INFO logger_File - User Clicked on Return button
+2023-03-29 15:18:09,057 [main] INFO logger_File - User selected the return reson
+2023-03-29 15:18:09,136 [main] INFO logger_File - User selected the drop off service
+2023-03-29 15:18:09,296 [main] INFO logger_File - User clicked on return order button
+2023-03-29 15:20:24,343 [main] INFO logger_File - User is on retail website
+2023-03-29 15:20:24,351 [main] INFO logger_File - Actual Title: React App = Expected Title: React App
+2023-03-29 15:20:24,688 [main] INFO logger_File - User clicked on signin button
+2023-03-29 15:20:25,416 [main] INFO logger_File - This is the email user entered: testerAtif@tekschool.us , This is the password user enterd: Atai@12345
+2023-03-29 15:20:25,673 [main] INFO logger_File - User clicked on login button
+2023-03-29 15:20:25,872 [main] INFO logger_File - User is logged into account
+2023-03-29 15:20:26,152 [main] INFO logger_File - User Clicked on orders section
+2023-03-29 15:20:28,238 [main] INFO logger_File - User Clicked on Return button
+2023-03-29 15:20:28,548 [main] INFO logger_File - User selected the return reson
+2023-03-29 15:20:28,818 [main] INFO logger_File - User selected the drop off service
+2023-03-29 15:20:29,766 [main] INFO logger_File - User clicked on return order button
+2023-03-29 15:24:03,701 [main] INFO logger_File - User is on retail website
+2023-03-29 15:24:03,708 [main] INFO logger_File - Actual Title: React App = Expected Title: React App
+2023-03-29 15:24:04,049 [main] INFO logger_File - User clicked on signin button
+2023-03-29 15:24:04,759 [main] INFO logger_File - This is the email user entered: testerAtif@tekschool.us , This is the password user enterd: Atai@12345
+2023-03-29 15:24:05,013 [main] INFO logger_File - User clicked on login button
+2023-03-29 15:24:05,270 [main] INFO logger_File - User is logged into account
+2023-03-29 15:24:05,547 [main] INFO logger_File - User Clicked on orders section
+2023-03-29 15:24:07,467 [main] INFO logger_File - User Clicked on Return button
+2023-03-29 15:24:07,752 [main] INFO logger_File - User selected the return reson
+2023-03-29 15:24:08,016 [main] INFO logger_File - User selected the drop off service
+2023-03-29 15:24:08,544 [main] INFO logger_File - User clicked on return order button
+2023-03-29 15:25:50,699 [main] INFO logger_File - User is on retail website
+2023-03-29 15:25:50,707 [main] INFO logger_File - Actual Title: React App = Expected Title: React App
+2023-03-29 15:25:51,042 [main] INFO logger_File - User clicked on signin button
+2023-03-29 15:25:51,766 [main] INFO logger_File - This is the email user entered: testerAtif@tekschool.us , This is the password user enterd: Atai@12345
+2023-03-29 15:25:52,022 [main] INFO logger_File - User clicked on login button
+2023-03-29 15:25:52,221 [main] INFO logger_File - User is logged into account
+2023-03-29 15:25:52,498 [main] INFO logger_File - User Clicked on orders section
+2023-03-29 15:25:54,092 [main] INFO logger_File - User Clicked on Return button
+2023-03-29 15:25:54,388 [main] INFO logger_File - User selected the return reson
+2023-03-29 15:25:54,648 [main] INFO logger_File - User selected the drop off service
+2023-03-29 15:25:55,200 [main] INFO logger_File - User clicked on return order button
